@@ -8,30 +8,105 @@
 </head>
 <body>
 
-    <header>
-        <h1>Isaac Chen</h1>
-        <p>Computer Science Graduate | Aspiring Software Engineer / Cloud Engineer</p>
+    <nav>
+        <img src="profile.png" alt="Profile Picture" class="profile-pic">
+        <h2>Isaac Chen</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Hi, I'm Isaac Chen</h1>
+        <p>Computer Science Graduate from the University of Maryland, College Park specializing in Software Engineering, Cloud Computing, and Scalable Application Development</p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            Recent Computer Science graduate passionate about software development,
-            cloud computing, and building scalable applications.
+            I am a recent Computer Science graduate with a strong foundation in software
+            development, cloud computing, and problem solving. My experience includes
+            building full-stack applications, developing machine learning models, and
+            working with cloud technologies such as AWS. I am passionate about creating
+            scalable solutions and continuously expanding my technical skill set.
         </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>HTML/CSS</span>
+            <span>React</span>
+            <span>AWS</span>
+            <span>Git/GitHub</span>
+            <span>Machine Learning</span>
+            <span>REST APIs</span>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>AWS Portfolio Website</li>
-            <li>More projects coming soon...</li>
-        </ul>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>AWS Portfolio Website</h3>
+                <p>
+                    Developed and deployed a responsive personal portfolio website designed to
+                    showcase technical projects and professional experience, with planned AWS
+                    serverless backend integration for dynamic visitor analytics.
+                </p>
+
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>AWS</span>
+                </div>
+
+                <a href="https://github.com/ichen2467/portfolio" class="project-btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Upcoming Full Stack App</h3>
+                <p>
+                    Currently developing a full stack application to showcase backend
+                    API development and database integration.
+                </p>
+
+                <div class="tech-tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>SQL</span>
+                </div>
+
+                <a href="#" class="project-btn">Coming Soon</a>
+            </div>
+
+        </div>
     </section>
 
     <section id="visitor-counter">
         <h2>Visitor Count</h2>
         <p id="counter">Loading...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: ichen2467@gmail.com</p>
+
+        <a href="https://github.com/ichen2467" target="_blank">GitHub</a><br>
+        <a href="https://linkedin.com/in/isaac-h-chen" target="_blank">LinkedIn</a>
     </section>
 
     <footer>
