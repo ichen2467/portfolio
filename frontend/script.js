@@ -1,0 +1,1 @@
+document.getElementById("counter").innerText = "Visitor counter coming soon!";
